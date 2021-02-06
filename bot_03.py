@@ -37,6 +37,10 @@ def enviar_msg(mensagem):
     time.sleep(3)
     campo_msg[1].send_keys(Keys.ENTER)
 
+def enviar_img(img):
+    # <span data-testid="clip" data-icon="clip" class=""></span>
+    pass
+
 
 for contato in contatos:
     buscar_contato(contato)
